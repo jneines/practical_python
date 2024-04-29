@@ -10,6 +10,10 @@ author                      : Jens Nie  # The author of the book
 copyright                   : "2022"  # Copyright year to be placed in the footer
 logo                        : logo.png  # A path to the book logo
 
+parse:
+  myst_enable_extensions:
+    - colon_fence
+
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
@@ -28,3 +32,8 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+
+sphinx:
+  config:
+    html_theme_options:
+      navigation_with_keys: true

@@ -4,6 +4,22 @@
 format: jb-book
 root: intro
 chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+  - file: chapters/some_history
+  - file: chapters/programming
+  - file: chapters/numbers_and_simple_calculations
+  - file: chapters/using_variables
+  - file: chapters/working_with_text
+  - file: chapters/booleans
+  - file: chapters/containers
+  - file: chapters/decisions_and_branching
+  - file: chapters/loops_and_iterating
+  - file: chapters/creating_ascii_art
+  - file: chapters/file_handling
+  - file: chapters/functions
+  - file: chapters/classes
+  - file: chapters/error_handling
+  - file: chapters/clean_code
+  - file: chapters/numerical_python
+  - file: chapters/simple_plotting
+  - file: chapters/scientific_python
+  - file: chapters/tabular_data_and_statistics
